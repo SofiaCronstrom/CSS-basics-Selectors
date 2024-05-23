@@ -1,19 +1,29 @@
 /* Välj lämplig selektor och styla det som är angett! Skriv endast här i CSS dokumentet, ändra inte i HTML-dokumentet!*/
 
 /* 1. Ge alla element på sidan en 'box-sizing: border-box;' */
-
+*{
+    box-sizing: border-box;
+}
 
 /* 2. <body> elementet ska ha bakgrundsfärg #bdc3c7*/
-
+body{
+    background-color: #bdc3c7;
+}
 
 /* 3. Rubriken <h1> ska ha färg #9b59b6*/
-
+h1{
+    color: #9b59b6;
+}
 
 /* 4. Alla underubriker <h2> ska ha en orange färg */
-
+h2{
+    color: rgb(224, 112, 0);
+}
 
 /* 5. Alla <li> element i en ul-lista ska ha blå färg (välj valfri hexadecimal färg)*/
-
+li{
+    color: blue;
+}
 
 /* 6. Alla p ska ha en gul bakgrundsfärg*/
 
