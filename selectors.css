@@ -103,7 +103,7 @@ ul li:first-child{
 }
 
 /* 21. Ge den andra paragrafen i .contatinern en röd färg  font-size till 32px; (En utmaning...)*/
-p:nth-of-type(2){
+.hello{
     color: red;
     font-size: 32px;
     
