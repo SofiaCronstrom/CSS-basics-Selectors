@@ -93,12 +93,12 @@ ul li:first-child{
 }
 
 /* 19. Ge alla p som kommer direkt efter h2-elementet i den tredje div-en (class="third") en turkos bakgrundsfärg Tips: Adjacent sibling selector*/
-.third + p{
+.third h2 + p{
     background-color: turquoise;
 }
 
 /* 20. Ge alla p som kommer efter h2-elementet i den trdje div-en (class="third") en vit färg #fff Tips: General sibling selector*/
-.third  ~ p{
+.third h2  ~ p{
     color: white;
 }
 
